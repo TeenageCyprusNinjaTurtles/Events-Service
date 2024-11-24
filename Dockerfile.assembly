@@ -12,6 +12,6 @@ RUN cargo build --release --target=x86_64-unknown-linux-musl
 
 ENV LISTEN_HOST="0.0.0.0"
 # Set the default command
-CMD ["/usr/src/app/target/x86_64-unknown-linux-musl/release/Event-Service"]
+CMD ["/usr/src/app/target/x86_64-unknown-linux-musl/release/Events-Service"]
 
 # Replace <your-binary-name> with the name of your Rust binary
